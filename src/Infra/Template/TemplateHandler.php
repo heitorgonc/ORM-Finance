@@ -8,6 +8,6 @@ class TemplateHandler
     {
         extract($params);
 
-        require_once __DIR__ . '/Templates/' . $templateName . '.php';
+        require_once __DIR__ . '/Templates/' . $templateName;
     }
 }

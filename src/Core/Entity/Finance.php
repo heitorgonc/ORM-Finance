@@ -8,13 +8,13 @@ class Finance
     private $id;
     private $title;
     private $value;
-    private $data;
+    private $date;
 
-    public function __construct($id = null, $title, $value, $data){
+    public function __construct($id = null, $title, $value, $date){
         $this->id = $id;
         $this->title = $title;
         $this->value = $value;
-        $this->data = $data;
+        $this->date = $date;
     }
     
     public function getId()
